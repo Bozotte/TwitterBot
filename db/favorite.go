@@ -18,8 +18,9 @@ package db
 
 import (
 	"database/sql"
-	"github.com/go-sql-driver/mysql"
 	"time"
+
+	"github.com/go-sql-driver/mysql"
 )
 
 type Favorite struct {

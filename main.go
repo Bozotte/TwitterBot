@@ -17,14 +17,15 @@
 package main
 
 import (
-	"./content"
-	"./db"
 	"fmt"
-	"github.com/ChimeraCoder/anaconda"
-	"github.com/jsgoecke/go-wit"
-	"github.com/robfig/cron"
 	"math/rand"
 	"time"
+
+	"github.com/ChimeraCoder/anaconda"
+	"github.com/Pym/TwitterBot/content"
+	"github.com/Pym/TwitterBot/db"
+	"github.com/jsgoecke/go-wit"
+	"github.com/robfig/cron"
 )
 
 var api *anaconda.TwitterApi

@@ -17,14 +17,15 @@
 package main
 
 import (
-	"./content"
-	"./db"
 	"fmt"
 	"math/rand"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/Pym/TwitterBot/content"
+	"github.com/Pym/TwitterBot/db"
 )
 
 const (
